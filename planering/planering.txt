@@ -1,0 +1,33 @@
+1.1 Kundbeskrivning
+    En vuxen människa som är hungrig efter en förmiddag av hårt arbete
+
+1.2 Målgrupp, Personas och Scenarios
+    Personerna som kommer att använda sajten är personer som gillar att planera
+    i förväg. Personer som bestämmer sig innan att där vill jag äta lunch
+    i stället för att bara spontant gå runt tills man hittar ett bra lunchställe.
+    De här personerna är alltså lite ordentliga av sig.
+    *(lägg till lite fler saker baserat på vad vi ska servera här)*
+    Målet med att besöka sajten är för att kolla på menyn, öppetider och
+    kontaktinfo som kan användas till att klaga eller beställa mat för hemtning.
+
+    Scenario 1:
+        lalalalala jag vill äta lunch, jag såg att den där resturangen fanns förut,
+        undrar vad de har för mat. *går in på sidan* blablabla resturang information,
+        reklam och öppetider who cares, oooh menyn *klick*. *tittar igenom menyn*
+        ooh det där ser gott ut *klickar på knapp med mer information*, *ny sida kommer
+        upp där man läser om rätten*. Ja den tar jag nog, lalalalala
+        *går till resturangen*/*fortsätt till scenario 2*
+
+    Scenario 2:
+        Hm jag vill beställa mat från *(inset resturang namn here)* men jag kommer inte ihåg nummret.
+        *går in på sidan* blablblabla kontaktinformation där, *klicks on link*.
+        Blablabla okej deras nummer är *(insert number here)* perfekt.
+        *ringer nummer och beställer mat* *går dit och hemtar maten efter en viss tid*
+
+    Scenario 3:
+        Oh jag hittade en sida till en resturang supposedly nära mig men var
+        ligger den då?. blablabla ok den ligger på *(insert street name here)*
+        *(fortsätt till senario  1)*
+
+    Scenario 4?:
+        *(insert scenario 4 here)*
