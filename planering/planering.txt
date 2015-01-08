@@ -1,3 +1,8 @@
+
+OM OSS DELEN ÄR ERSATT AV EN BILD NU SÅDETSÅ
+
+
+
 1.1 Kundbeskrivning
     En vuxen människa som är hungrig efter en förmiddag av hårt arbete
 
@@ -8,7 +13,7 @@
     De här personerna är alltså lite ordentliga av sig.
     *(lägg till lite fler saker baserat på vad vi ska servera här)*
     Målet med att besöka sajten är för att kolla på menyn, öppetider och
-    kontaktinfo som kan användas till att klaga eller beställa mat för hemtning.
+    kontaktinfo som kan användas till att klaga eller beställa mat för hämtning.
 
     Scenario 1:
         lalalalala jag vill äta lunch, jag såg att den där resturangen fanns förut,
@@ -29,5 +34,15 @@
         ligger den då?. blablabla ok den ligger på *(insert street name here)*
         *(fortsätt till senario  1)*
 
-    Scenario 4?:
-        *(insert scenario 4 here)* v
+    Scenario 4:
+        Hmmm var ska jag äta, jag såg den där resturangen förut jag kanske kan kolla upp den
+        online, se om den är något att ha liksom.
+
+1.4 De som kommer gå in på sidan vill antingen kolla på menyn, veta var exakt resturangen ligger
+    eller kolla upp nummret till resturangen. Därför har vi gjort en tydlig framsida där man lätt kan
+    navigera sig till den önskade informationen. Eftersom personen som går in på sidan
+    kanske gör det för att kolla om de vill gå dit överhuvudtaget så har vi en fin bild
+    också från insidan av resturangen. Vi valde färgerna dels för att vi tyckte att de passade
+    men också för att internett sa att man blev hungrig av att titta på de färgerna. Av samma
+    anledning undvek vi färger som påstods påverka apptiten negativt.Vi har också gjort så att
+    layouten på varje sida är relativt den samma för att det ska vara lätt att förstå var man ska klicka.
