@@ -17,10 +17,9 @@ OM OSS DELEN ÄR ERSATT AV EN BILD NU SÅDETSÅ
 
     Scenario 1:
         lalalalala jag vill äta lunch, jag såg att den där resturangen fanns förut,
-        undrar vad de har för mat. *går in på sidan* blablabla resturang information,
-        reklam och öppetider who cares, oooh menyn *klick*. *tittar igenom menyn*
-        ooh det där ser gott ut *klickar på knapp med mer information*, *ny sida kommer
-        upp där man läser om rätten*. Ja den tar jag nog, lalalalala
+        undrar vad de har för mat. *går in på sidan* blablabla öppetider who cares, oooh menyn *klick*. *tittar igenom menyn*
+        ooh ska jag ha pizza eller något annat... vad finns det för annat *klickar på annat*. Ooh har de det där
+        det tar jag nog, lalalalala
         *går till resturangen*/*fortsätt till scenario 2*
 
     Scenario 2:
@@ -36,7 +35,8 @@ OM OSS DELEN ÄR ERSATT AV EN BILD NU SÅDETSÅ
 
     Scenario 4:
         Hmmm var ska jag äta, jag såg den där resturangen förut jag kanske kan kolla upp den
-        online, se om den är något att ha liksom.
+        online, se om den är något att ha liksom.*looks around on site* *notices nice picture
+        and starts looking at menu*. hmm this place looks nice *(fortsätt till något av de andra scenariosen)*
 
 1.4 De som kommer gå in på sidan vill antingen kolla på menyn, veta var exakt resturangen ligger
     eller kolla upp nummret till resturangen. Därför har vi gjort en tydlig framsida där man lätt kan
