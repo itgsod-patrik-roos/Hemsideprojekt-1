@@ -1,0 +1,58 @@
+.haeder{
+    width: 40vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border:solid beige 2px;
+    background-color: #ff0000;
+
+}
+
+.resname{
+
+    font-size: 60px;
+}
+.opetider{
+    margin-bottom: 10px;
+}
+
+
+.navigation_menu{
+    position: absolute;
+    border:solid beige 2px;
+    width: 20vw;
+    height: 40vw;
+    bottom: 0;
+    text-align: center;
+    background-color: #ff0000;
+    left: 0;
+}
+
+.meny{
+    height: 33%;
+
+}
+
+.vaegbeskrivning{
+    height: 33%;
+}
+
+.kontinfo{
+    height: 33%;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+img{
+    float:right;
+}
