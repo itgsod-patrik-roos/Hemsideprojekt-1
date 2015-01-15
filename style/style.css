@@ -26,19 +26,40 @@
     text-align: center;
     background-color: #ff0000;
     left: 0;
+
+}
+
+.startpage{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .meny{
     height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .vaegbeskrivning{
     height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .kontinfo{
     height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 a:link{
