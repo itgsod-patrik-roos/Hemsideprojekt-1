@@ -44,6 +44,51 @@
 
 }
 
+#pizza_button{
+    margin-left: 5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    border: solid darkorange 5px;
+    background-color: orange;
+    text-align: center;
+}
+
+
+#pizzor{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2vw;
+    width: 70%;
+    border: solid darkorange 5px;
+    background-color: orange;
+}
+#sallad_button{
+    margin-left: 5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    border: solid green 5px;
+    background-color: yellowgreen;
+    text-align: center
+}
+
+#annat_button{
+    margin-left: 5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    border: solid #D1DC09 5px;
+    background-color: yellow;
+    text-align: center
+}
+#dricka_button{
+    margin-left: 5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    border: solid dodgerblue 5px;
+    background-color: turquoise;
+    text-align: center
+}
+
 .vaegbeskrivning{
     height: 33%;
     display: flex;
@@ -61,14 +106,14 @@
 #meny{
     width: 50vw;
     border: solid black 2px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25vw;
 }
 #meny a{
     font-size: 30px;
 
 }
-
-
 
 a{
     text-decoration: none;
@@ -84,7 +129,7 @@ a:visited{
 
 a:hover{
     color: darkgray;
-}
+
 
 img{
     float:right;
