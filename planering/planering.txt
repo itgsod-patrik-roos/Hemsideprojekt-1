@@ -43,6 +43,6 @@ OM OSS DELEN ÄR ERSATT AV EN BILD NU SÅDETSÅ
     navigera sig till den önskade informationen. Eftersom personen som går in på sidan
     kanske gör det för att kolla om de vill gå dit överhuvudtaget så har vi en fin bild
     också från insidan av resturangen. Vi valde färgerna dels för att vi tyckte att de passade
-    men också för att internett sa att man blev hungrig av att titta på de färgerna. Av samma
+    men också för att internet sa att man blev hungrig av att titta på de färgerna. Av samma
     anledning undvek vi färger som påstods påverka apptiten negativt.Vi har också gjort så att
     layouten på varje sida är relativt den samma för att det ska vara lätt att förstå var man ska klicka.

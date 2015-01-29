@@ -5,11 +5,27 @@
     <title></title>
     <link href="../style/style.css" rel="stylesheet" type="text/css">
     <script>
-
+    function displayPizza(){
         if(document.getElementById('pizzor') .style.display=='none')
             {document.getElementById('pizzor') .style.display=''}
-            else{document.getElementById('pizzor') .style.display='none'}"
+            else{document.getElementById('pizzor') .style.display='none'}
+    }
+    function displaySallad(){
+        if(document.getElementById('sallader') .style.display=='none')
+            {document.getElementById('sallader') .style.display=''}
+            else{document.getElementById('sallader') .style.display='none'}
 
+    }
+    function displayAnnat(){
+        if(document.getElementById('annat') .style.display=='none')
+            {document.getElementById('annat') .style.display=''}
+            else{document.getElementById('annat') .style.display='none'}
+    }
+    function displayDricka(){
+        if(document.getElementById('dricka') .style.display=='none')
+            {document.getElementById('dricka') .style.display=''}
+            else{document.getElementById('dricka') .style.display='none'}
+    }
 
     </script>
 </head>
@@ -35,38 +51,252 @@
 <div id="meny">
 
     <a id="pizza_button" title="Click to show/hide content" type="button" style="display: block"
-            onclick="">Pizzor</a>
+            onclick="displayPizza()">Pizzor</a>
 
     <div id="pizzor" style="display: none">
-        Blablablabalbalbalbalbalbalabla
+        <table>
+           <tr>
+              <td class="td1">Pizza 1</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 7</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+           <tr>
+              <td class="td1">Pizza 2</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr </td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 8</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 3</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 9</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 4</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 10</td>
+                <td class="emptytd"></td>
+              <td class="td4"> 75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 5</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 11</td>
+                <td class="emptytd"></td>
+              <td class="td4">75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 6</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 12</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+        </table>
     </div>
 
     <a id="sallad_button" title="Click to show/hide content" type="button" style="display: block"
-            onclick="if(document.getElementById('sallader') .style.display=='none')
-            {document.getElementById('sallader') .style.display=''}
-            else{document.getElementById('sallader') .style.display='none'}">Sallader</a>
+            onclick="displaySallad()">Sallader</a>
 
     <div id="sallader" style="display: none">
-        blablablablablabal
+        <table>
+           <tr>
+              <td class="td1">Pizza 1</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 7</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+           <tr>
+              <td class="td1">Pizza 2</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr </td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 8</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 3</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 9</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 4</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 10</td>
+                <td class="emptytd"></td>
+              <td class="td4"> 75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 5</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 11</td>
+                <td class="emptytd"></td>
+              <td class="td4">75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 6</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 12</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+        </table>
 
     </div>
 
     <a id="annat_button" title="Click to show/hide content" type="button" style="display: block"
-            onclick="if(document.getElementById('annat') .style.display=='none')
-            {document.getElementById('annat') .style.display=''}
-            else{document.getElementById('annat') .style.display='none'}">Annat</a>
+            onclick="displayAnnat()">Annat</a>
 
     <div id="annat" style="display: none">
-        Blablablabalbalbalbalbalbalabla
+        <table>
+           <tr>
+              <td class="td1">Pizza 1</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 7</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+           <tr>
+              <td class="td1">Pizza 2</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr </td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 8</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 3</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 9</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 4</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 10</td>
+                <td class="emptytd"></td>
+              <td class="td4"> 75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 5</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 11</td>
+                <td class="emptytd"></td>
+              <td class="td4">75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 6</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 12</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+        </table>
     </div>
 
     <a id="dricka_button" title="Click to show/hide content" type="button" style="display: block"
-            onclick="if(document.getElementById('dricka') .style.display=='none')
-            {document.getElementById('dricka') .style.display=''}
-            else{document.getElementById('dricka') .style.display='none'}" >Dricka</a>
+            onclick="displayDricka()" >Dricka</a>
 
     <div id="dricka" style="display: none">
-        Blablablabalbalbalbalbalbalabla
+        <table>
+           <tr>
+              <td class="td1">Pizza 1</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 7</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+           <tr>
+              <td class="td1">Pizza 2</td>
+               <td class="emptytd"></td>
+              <td class="td2">60kr </td>
+               <td class="emptytd"></td>
+              <td class="td3">Pizza 8</td>
+               <td class="emptytd"></td>
+              <td class="td4">70kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 3</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 9</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 4</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 10</td>
+                <td class="emptytd"></td>
+              <td class="td4"> 75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 5</td>
+                <td class="emptytd"></td>
+              <td class="td2">65kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 11</td>
+                <td class="emptytd"></td>
+              <td class="td4">75kr</td>
+           </tr>
+            <tr>
+              <td class="td1">Pizza 6</td>
+                <td class="emptytd"></td>
+              <td class="td2">60kr</td>
+                <td class="emptytd"></td>
+              <td class="td3">Pizza 12</td>
+                <td class="emptytd"></td>
+              <td class="td4">80kr</td>
+           </tr>
+        </table>
     </div>
 </div>
 
@@ -86,7 +316,7 @@
 
     <div class="kontinfo">
 
-        <a href="/sub_sidor/kontinfo.html">Beställning/kontaktinfo</a>
+        <a href="./kontinfo.html">Beställning/kontaktinfo</a>
 
     </div>
 
