@@ -3,8 +3,9 @@
     margin-left:auto;
     margin-right:auto;
     text-align: center;
-    border:solid beige 2px;
+    border:solid #ff0000 2px;
     background-color: #ff0000;
+    box-shadow: 0.4vw 0.4vw 0.4vw;
 
 }
 
@@ -19,13 +20,23 @@
 
 .navigation_menu{
     position: fixed;
-    border:solid beige 2px;
+    border:solid #ff0000 2px;
     width: 20vw;
     height: 40vw;
     bottom: 0;
     text-align: center;
     background-color: #ff0000;
     left: 0;
+    box-shadow: 0.4vw 0.4vw 0.4vw;
+
+
+}
+.navigation_menu2{
+    width: 100%;
+    border-top:solid #ff0000 2px;
+    background-color: #ff0000;
+    box-shadow: 0.4vw 0.4vw 0.4vw;
+
 
 }
 
@@ -51,6 +62,7 @@
     border: solid darkorange 5px;
     background-color: orange;
     text-align: center;
+    box-shadow: 0.2vw 0.2vw 0.2vw;
 }
 
 
@@ -69,7 +81,8 @@
     width: 10vw;
     border: solid green 5px;
     background-color: yellowgreen;
-    text-align: center
+    text-align: center;
+    box-shadow: 0.2vw 0.2vw 0.2vw;
 }
 #sallader{
     position: relative;
@@ -79,6 +92,7 @@
     width: 70%;
     border: solid green 5px;
     background-color: yellowgreen;
+
 }
 
 
@@ -88,7 +102,8 @@
     width: 10vw;
     border: solid #D1DC09 5px;
     background-color: yellow;
-    text-align: center
+    text-align: center;
+    box-shadow: 0.2vw 0.2vw 0.2vw;
 }
 #annat{
     position: relative;
@@ -105,7 +120,8 @@
     width: 10vw;
     border: solid dodgerblue 5px;
     background-color: turquoise;
-    text-align: center
+    text-align: center;
+    box-shadow: 0.2vw 0.2vw 0.2vw;
 }
 #dricka{
     position: relative;
@@ -152,7 +168,7 @@
     margin-left: 10px;
 }
 #meny a{
-    font-size: 30px;
+    font-size: 200%;
 
 }
 
@@ -183,4 +199,43 @@ td{
 }
 .emptytd{
     width: 5vw;
+}
+
+@media (orientation: landscape) {
+    .navigation_menu2{
+        display: none;
+    }
+    .navigation_menu{
+        display: true;
+    }
+}
+
+@media (orientation: portrait){
+    .haeder {
+        width: 100%;
+    }
+    .navigation_menu{
+        display: none;
+
+    }
+    #meny{
+        width: 100%;
+        border: solid black 2px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.25vw;
+
+    }
+    #pizza_button{
+        width: 15vw;
+    }
+    #annat_button{
+        width: 15vw;
+    }
+    #dricka_button{
+        width: 15vw;
+    }
+    #sallad_button{
+        width: 15vw;
+    }
 }
