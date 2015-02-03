@@ -33,6 +33,7 @@
 }
 .navigation_menu2{
     width: 100%;
+    margin: auto;
     border-top:solid #ff0000 2px;
     background-color: #ff0000;
     box-shadow: 0.4vw 0.4vw 0.4vw;
