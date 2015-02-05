@@ -34,9 +34,10 @@
 .navigation_menu2{
     width: 100%;
     margin: auto;
-    border-top:solid #ff0000 2px;
+    border:solid #ff0000 2px;
     background-color: #ff0000;
     box-shadow: 0.4vw 0.4vw 0.4vw;
+    text-align: center;
 
 
 }
@@ -191,7 +192,10 @@ a:hover {
 }
 
 img{
-    float:right;
+    position: absolute;
+    bottom: 0;
+    right: 25vw;
+
 }
 
 td{
@@ -219,6 +223,7 @@ td{
         display: none;
 
     }
+
     #meny{
         width: 100%;
         border: solid black 2px;
@@ -238,5 +243,10 @@ td{
     }
     #sallad_button{
         width: 15vw;
+    }
+    img{
+        position: relative;
+        float: left;
+        margin-top: 1vw;
     }
 }
